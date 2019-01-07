@@ -1,0 +1,3 @@
+There are no duplicate ids in the records.
+Because the id field is the unique naming convention that MongoDB uses across all of its content.
+Due to the indentical characterist of id field, it helps user find document through id
