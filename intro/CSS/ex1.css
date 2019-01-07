@@ -1,0 +1,12 @@
+#category {
+    color: rgb(216, 93, 93);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.title {
+    font-family: 'Kalam', cursive;
+    text-transform: uppercase;
+}
