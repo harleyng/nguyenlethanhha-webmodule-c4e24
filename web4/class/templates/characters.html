@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello {{ session['token'] }}</h1> 
+    {% for c in character_list %}
+        <ul>
+            <li><h3>{{ c.name }}</h3></li>
+        </ul>
+        <img src="{{ c.image }}" width="600px" height="900px">
+        <h3>Rate: {{ c.rate }}</h3>
+        <a href="/character/{{ c.id }}" target="#">For detail</a>
+        <a href="/update/{{ c.id }}" target="#">Update</a>
+        <a href="/delete/{{ c.id }}" target="#">Delete</a>
+        <hr>
+    {% endfor %}
+</body>
+</html>

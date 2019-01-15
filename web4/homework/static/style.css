@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_label {
+    display: block;
+}
+
+.mb-2 {
+    margin: 10px 0px;
+}
+
+input {
+    width: 250px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 3px;
+    border: solid 1px #cccccc;
+}
+
+button {
+    background-color: #6f65c2;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    padding: 2px 8px;
+}
